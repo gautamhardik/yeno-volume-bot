@@ -8,10 +8,12 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from typing import Any
 
 
+from yeno_apex_bot import BOT
+
+
 def decide(observation: dict[str, Any]) -> dict[str, Any]:
-    """Replace HOLD with your strategy. Never edit evaluator-owned accounting."""
-    del observation
-    return {"action": "HOLD"}
+    """Execute championship ApexBot strategy."""
+    return BOT.decide(observation)
 
 
 class Handler(BaseHTTPRequestHandler):
