@@ -54,8 +54,9 @@
 
 ## Current State & Next Steps
 - **Current State:**
-  - [`yeno_apex_bot.py`](file:///c:/Users/hiten/Downloads/yeno/yeno-starter-kit/yeno_apex_bot.py) is hardened, passes all contract checks, and is ready for the second paper evaluation window.
-  - Local smoke contract check confirmed (`contractSmokePassed: true` on sample observation).
+  - [`yeno_apex_bot.py`](file:///c:/Users/hiten/Downloads/yeno/yeno-starter-kit/yeno_apex_bot.py) is hardened, passes all contract checks, and is committed to git under hash `d0d508d`.
+  - Local HTTP smoke contract check verified (`contractSmokePassed: true` on sample observation).
+  - 24-hour simulation verified across 7 distinct seeds.
 - **Next Steps:**
-  - Stage and commit changes to git.
-  - Submit updated commit hash to `submit@builderr.ai` ahead of the next rolling evaluation snapshot.
+  - Submit updated immutable commit hash `d0d508d` to `submit@builderr.ai` ahead of the next rolling evaluation snapshot.
+
